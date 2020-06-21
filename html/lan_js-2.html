@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Programming languages hacks tricks">
+  <meta name="keywords" content="html,css,php,java,Programming,cool tricks">
+  <meta name="author" content="thisisme">
+    <title>Learn JS |CODE WORLD</title>
+
+<!--BOOTSTRAP-->
+  <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+<!--FONTAWESOME-->
+  <link rel="stylesheet" type="text/css" href="../css/fa/css/all.css">
+    <!-- Bootstrap core CSS -->
+<link rel="stylesheet" type="text/css" href="../css/lan_js-2.css">
+<style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+</style>
+  </head>
+  <body class="d-flex flex-column h-100">
+ <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
+          <a class="navbar-brand" href="../index.html">
+            <div class="logo">
+              <img class="logoimg" src="../bg/logo.png">
+              </div>
+            </a> 
+ 
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""><i class="fas fa-bars"></i></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                 <div class="navbar-nav navbar-list"> 
+                    <a class="acolor" href="../html/home.html"><i class="fas fa-home"></i>Home</a>
+
+                    <a class="acolor" href="../html/about.html"><i class="fas fa-address-card"></i>ABOUT<span class="sr-only">(current)</span></a> 
+                    <a class="acolor" href="../html/contact.html"><i class="fas fa-phone-alt"></i>Contact</a> 
+                    <a class="acolor" href="../html/rateus.html"><i class="fas fa-star"></i>Rate</a>
+                    <a class="acolor" href="#"> 
+                      <!--THEME-->
+              <label>
+                  <input class="fas" onclick="myFunction()" id="cbox" type="checkbox" name="c">
+                  <span  class="check"></span>
+                </label>Dark-Mode</a>
+                  
+                 </div>
+            </div>
+        </nav>
+
+  
+</header>
+
+<!-- Begin page content -->
+<main role="main" class="flex-shrink-0 container-fluid con">
+              <div id="sear"  class="search-box">
+                    <form  class="search-box" action="https://www.google.com/search" target="_blank" method="GET">
+                        <input  class="search-txt" type="text" name="q"  placeholder="type to search">
+
+                      <button id="search-button" class="search-btn" href="#" >
+                      <i class="fas fa-search"></i>
+                      </button>
+                       </form>
+              </div>
+
+        <div class="wrapper">
+          <nav id="side-bar">
+            <div class="side-bar-header">
+              <h1 class="cw">CODE WORLD</h1>
+            </div>
+            <ul id="lists" class="lisst-unstyled components">
+              <p>Jump to..</p>
+              <li>
+                <a href="../html/lan_html.html"><i class="fab fa-html5 fa-2x"></i>&nbsp HTML</a>
+              </li>
+              <li>
+                 <a href="../html/lan_css.html"><i class="fab fa-css3-alt fa-2x"></i>&nbsp CSS</a>
+              </li>
+              <li>
+                <a href="../html/lan_php.html"><i class="fab fa-php fa-2x"></i>&nbsp PHP</a>
+              </li>
+               <li>
+                 <a href="../html/lan_c.html"><i class="fab fa-cuttlefish fa-2x"></i>&nbsp C_lang</a>
+               </li>
+               <li>
+                    <a href="../html/lan_cpp.html"><i class="fab fa-cuttlefish fa-2x"></i>++&nbsp Cpp</a>
+              </li>
+                <li>
+                <a href="../html/lan_python.html"><i class="fab fa-python fa-2x"></i></i>&nbsp PYTHON</a>
+              </li>
+              <li>
+                 <a href="../html/lan_java.html"><i class="fab fa-java fa-2x"></i>&nbsp JAVA</a>
+              </li>
+              <li class="activelist">
+                <a href="../html/lan_js.html"><i class="fab fa-js-square fa-2x"></i>&nbsp JAVASCRIPT</a>
+              </li>
+               <li>
+                <a href="../html/lan_sql.html"><i class="fas fa-database fa-2x"></i>&nbsp SQL</a>
+              </li>
+            </ul>
+          </nav>
+          <div id="content">
+            <nav id="lan_nav" class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <div class="container-fluid">
+                  <button type="button" id="sidebarCollapse" class="btn btn-info" onclick="searchide()">
+                    <i class="fas fa-align-left"></i>
+                    <span></span>
+
+                  </button>
+                </div>
+            </nav>
+            
+          </div>
+        </div>
+<div class="container-fluid">
+<!--HEADING-->
+      <div class="container lan_head">
+             <h1>JAVA SCRIPT<br><h3>Syntax</h3></h1>
+             <i class="fab fa-js-square fa-4x"></i>
+             <p class="head">JavaScript Syntax</p>
+      </div>
+<!--1-->
+  <div class="container d1">
+<h1>JavaScript Syntax</h1>
+
+    <ul>
+      <li>JavaScript syntax is the set of rules, how JavaScript programs are constructed:</li>
+       <code  class=" language-css">
+      <span class="token property">var</span>&nbsp;x<span class="token property">,</span>&nbsp;y<span class="token property">,</span>&nbsp;z<span class="token property">;</span>&nbsp;&nbsp;&nbsp;<span class="token doctype">// How to declare variables</span><br>
+      <span class="token property">x</span>&nbsp;=<span class="token number"> 5</span><span class="token property">;</span>&nbsp;<span class="token property">y</span>&nbsp;=<span class="token number"> 6</span><span class="token property">;</span><span class="token doctype">// How to assign values</span><br>
+      <span class="token property">z</span>&nbsp;=<span class="token property"> x</span>&nbsp;+<span class="token property">y</span><span class="token property">;</span>&nbsp;&nbsp;&nbsp;<span class="token doctype">// How to compute values</span><br>
+     </code>
+    </ul>
+  </div>
+<!--2-->
+  <div class="container d2">
+     <h1>JavaScript Values</h1>
+    <ul>
+      <li>The JavaScript syntax defines two types of values: Fixed values and variable values..</li><br>
+      <li>Fixed values are called literals. Variable values are called variables</li><br>
+    </ul>
+  </div>
+<!--3-->
+  <div class="container d3">
+   <h1>JavaScript is Case Sensitive</h1>
+    <ul>
+      <li>All JavaScript identifiers are case sensitive.</li><br>
+      <li>JavaScript does not interpret VAR or Var as the keyword var</li>
+    </ul>
+  </div>
+<!--NEXT-->
+  <div class="container pagination n">
+    <a href="../html/lan_js.html"><i class="fas fa-chevron-circle-left fa-2x"></i></a>
+    <a href="../html/lan_js.html">1</a>
+    <a href="#"> </a>
+    <a href="#" class="active">2</a>
+    <a href="../html/lan_sql.html"><i class="fas fa-chevron-circle-right fa-2x"></i></a>
+  </div>
+</div>
+  <br><br><br><br><br><br>
+</main>
+
+<footer class="footer mt-auto py-3 foot">
+  <div class="container">
+    <ul>
+      <li><a id="f" href="https://www.facebook.com/profile.php?id=100011971261574" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a id="tw"  href="https://www.twitter.com/thisisme_mukul" target="_blank"><i class="fab fa-twitter"></i></a></li>
+
+      <li><a id="ig" href="https://www.instagram.com/walker._.12" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      <li><a id="li"  href="https://www.linkedin.com/in/thisisme-mukulsaini" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+    </ul>
+Created by <a id="thisisme" href="https://www.instagram.com/walker._.12" target="_blank" > THIS IS ME </a>
+    <p id="copy">Copyright &copy; 2020 CODE WORLD <script type="text/javascript"> document.write(newDate().getFullYear());</script> Inc. All rights reserved</p>
+
+
+  </div>
+</footer>
+<!--
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.js"></script>
+-->
+<!--BOOTSTRAP-->
+<script src="../bootstrap/jq/jquery-3.5.1.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/dark.js"></script>
+<script>
+  $(document).ready(function(){
+    $("#sidebarCollapse").on('click',function(){
+    $("#side-bar").toggleClass('active');
+    });
+  });
+</script>
+    </body>
+</html>
