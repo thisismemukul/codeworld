@@ -1,7 +1,7 @@
 # Codeworld
 This is my first ever website project.
 <p align="center">
-<img src="https://github.com/thisismemukul/codeworld/blob/main/demo.gif" alt="CodeWorld" title="CodeWorld show gif" width="500"/>
+<img src="https://github.com/thisismemukul/codeworld/blob/master/demo.gif" alt="CodeWorld" title="CodeWorld show gif" width="500"/>
 </p>
 <h3> Website Link 🔗: https://thisismemukul.github.io/codeworld/</h3>
 <h4>* Tech Stack used:</h4>
